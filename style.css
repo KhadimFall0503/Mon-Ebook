@@ -1,0 +1,88 @@
+body {
+  background-color: #f8f9fa;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7;
+  color: #212529;
+}
+
+/* TITRES */
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 600;
+  color: #0d6efd;
+  margin-top: 2rem;
+}
+
+/* BLOCS DE CODE */
+pre {
+  background-color: #f1f3f5;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  border-left: 4px solid #0d6efd;
+}
+code {
+  background-color: #e9ecef;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.3rem;
+  font-family: Consolas, monospace;
+}
+
+/* IMAGES */
+.img-illustration {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  margin: 1.5rem 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* EXPLICATIONS */
+.explanation {
+  font-style: italic;
+  color: #495057;
+  margin: 1rem 0;
+}
+
+/* FORMULAIRE */
+form select {
+  border-radius: 0.3rem;
+}
+
+/* FOOTER */
+footer {
+  font-size: 0.9rem;
+  background-color: #212529;
+  color: #dee2e6;
+}
+footer small {
+  display: block;
+  margin-top: 0.5rem;
+  line-height: 1.5;
+}
+
+/* BOUTONS */
+.btn-outline-primary,
+.btn-outline-secondary,
+.btn-outline-success {
+  border-radius: 2rem;
+  padding: 0.5rem 1.2rem;
+  font-weight: 500;
+}
+
+/* NAVBAR */
+.navbar-brand {
+  font-weight: bold;
+}
+.nav-link {
+  font-weight: 500;
+}
+
+/* ESPACEMENTS ENTRE SECTIONS */
+section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
