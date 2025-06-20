@@ -136,6 +136,12 @@
           <li><code>margin</code> : marge extérieure.</li>
           <li><code>padding</code> : marge intérieure.</li>
           <li><code>border</code> : bordure autour de l'élément.</li>
+          <li>
+            <code>text-align</code> : alignement du texte (gauche, centre,
+            droite).
+          </li>
+          <li><code>width</code>: taillle du contenu</li>
+          <li><code>height</code> : hauteur de l'élément.</li>
         </ul>
 
         <h4>Exemple de CSS :</h4>
@@ -303,12 +309,6 @@ h1 {
           adaptabilité aux écrans.
         </p>
 
-        <img
-          src="https://miro.medium.com/max/2000/1*I3FD59x8wWxah3EYfqEgvw.png"
-          alt="Flexbox illustration"
-          class="img-illustration"
-        />
-
         <h3>Positionnement des éléments :</h3>
         <p>On peut définir la position d'un élément avec :</p>
         <ul>
@@ -335,6 +335,28 @@ h1 {
   align-items: center;
   gap: 10px;
 }</code></pre>
+        <h3>CSS Grid (mise en page en grille) :</h3>
+        <p>
+          CSS Grid est un système de mise en page puissant permettant de créer
+          des structures complexes avec des lignes et des colonnes. Il est idéal
+          pour des mises en page en deux dimensions (lignes + colonnes).
+        </p>
+        <pre><code>.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.item {
+  background-color: #0d6efd;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}</code></pre>
+        <p class="explanation">
+          Ici, on crée une grille de 3 colonnes de taille égale. Chaque élément
+          a un fond bleu, du texte blanc et un espacement uniforme.
+        </p>
 
         <h3>Média queries (responsive design) :</h3>
         <p>Pour adapter le style selon la taille de l’écran :</p>
